@@ -13,7 +13,7 @@ FMDatabase *db = [FMDatabasedatabaseWithPath:filename];
 create，drop，insert，update，delete等
 
 使用 executeUpdate：方法执行更新
-
+```objc
 3.打开数据库
      if ([db open]) {
         // 4.创表
@@ -24,3 +24,4 @@ create，drop，insert，update，delete等
             NSLog(@"创表失败");
         }
     }
+```
